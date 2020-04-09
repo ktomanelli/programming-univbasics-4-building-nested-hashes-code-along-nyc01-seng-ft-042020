@@ -21,8 +21,8 @@ def bonus
   }
 
   #code your solution here:
-epic_tragedy[:montague][:hero] ={name: "Romeo", age: "15", status: "dead"}
-epic_tragedy[:capulet][:heroine] = {name: "Juliet", age: "15", status: "dead"}
+puts epic_tragedy[:montague][:hero]
+puts epic_tragedy[:capulet][:heroine] = {name: "Juliet", age: "15", status: "dead"}
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
